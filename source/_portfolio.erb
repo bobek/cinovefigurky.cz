@@ -1,0 +1,32 @@
+<section id="portfolio">
+  <% data.figurky.cats.each do |cat| %>
+    <h2><%= cat.name %></h2>
+    <div class="row">
+    <% if cat.items %>
+      <% cat.items.each do |item| %>
+        <article class="col-6 col-12-xsmall work-item">
+          <h3><%= item[:name] %></h3>
+          <% if item[:pics] %>
+            <% Dir.chdir('source/images') do %>
+            <% Dir.glob(item[:pics]).each do |img| %>
+              <a href="<%= image_path(img) %>" class="image miniature"><img src="<%= image_path(img) %>" alt="" title="<%= item[:name] %>" /></a>
+            <% end %>
+            <% end %>
+          <% end %>
+        </article>
+      <% end %>
+    <% else %>
+        <article class="col-12 col-12-xsmall work-item">
+          <% if cat[:pics] %>
+            <% Dir.chdir('source/images') do %>
+            <% Dir.glob(cat[:pics]).each do |img| %>
+              <a href="<%= image_path(img) %>" class="image miniature"><img src="<%= image_path(img) %>" alt="" title="<%= cat[:name] %>" /></a>
+            <% end %>
+            <% end %>
+          <% end %>
+        </article>
+    <% end %>
+    </div>
+  <% end %>
+</section>
+

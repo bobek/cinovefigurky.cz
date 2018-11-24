@@ -1,0 +1,250 @@
+cats:
+  - slug: knights
+    name: "Rytíři / Knights"
+    items:
+      - slug: r01
+        name: "Rytíř/Knight No. 1"
+        pics: 'knights/r01/*.jpg'
+      - slug: r02
+        name: "Rytíř/Knight No. 2"
+        pics: 'knights/r02/*.jpg'
+      - slug: r03
+        name: "Rytíř/Knight No. 3"
+        pics: 'knights/r03/*.jpg'
+      - slug: r04
+        name: "Rytíř/Knight No. 4"
+        pics: 'knights/r04/*.jpg'
+      - slug: r05
+        name: "Rytíř/Knight No. 5"
+        pics: 'knights/r05/*.jpg'
+      - slug: r06
+        name: "Rytíř/Knight No. 6"
+        pics: 'knights/r06/*.jpg'
+      - slug: r07
+        name: "Rytíř/Knight No. 7"
+        pics: 'knights/r07/*.jpg'
+      - slug: r08
+        name: "Rytíř/Knight No. 8"
+        pics: 'knights/r08/*.jpg'
+      - slug: r09
+        name: "Rytíř/Knight No. 9"
+        pics: 'knights/r09/*.jpg'
+      - slug: r10
+        name: "Rytíř/Knight No. 10"
+        pics: 'knights/r10/*.jpg'
+
+  - slug: indians
+    name: "Indiáni / Native Americans"
+    pics: 'indians/*.jpg'
+
+  - slug: betlehem
+    name: "Betlém / Betlehem"
+    pics: 'betlehem/*.jpg'
+
+  - slug: chess
+    name: "Šachy / Chess"
+    pics: 'chess/*.jpg'
+
+  - slug: csarmy
+    name: "Tradice naší armády / CS Army"
+    pics: 'csarmy/*.jpg'
+
+  - slug: drops
+    name: "Prívěšky / Drops"
+    pics: 'drops/*.jpg'
+
+  - slug: band
+    name: "Vojenská kapela / Marching Band"
+    items:
+      - slug: drum
+        name: "Velký buben / Drum"
+        pics: 'kapela/buben/*.jpg'
+      - slug: small_drum
+        name: "Malý buben / Small Drum"
+        pics: 'kapela/bubinek/*.jpg'
+      - slug: picolla
+        name: "Pikola / Picolla"
+        pics: 'kapela/pikola/*.jpg'
+      - slug: trombone
+        name: "Pozoun / Trombone"
+        pics: 'kapela/pozoun/*.jpg'
+      - slug: trumpet
+        name: "Trumpeta / Trumpet"
+        pics: 'kapela/trumpeta/*.jpg'
+      - slug: bombardon
+        name: "Tuba / Bombardon"
+        pics: 'kapela/tuba/*.jpg'
+
+  - slug: slavkov
+    name: "Slavkov"
+    items:
+      - slug: s01
+        name: "Slavkov No. 1"
+        pics: 'slavkov/s01/*.jpg'
+      - slug: s02
+        name: "Slavkov No. 2"
+        pics: 'slavkov/s02/*.jpg'
+      - slug: s03
+        name: "Slavkov No. 3"
+        pics: 'slavkov/s03/*.jpg'
+      - slug: s04
+        name: "Slavkov No. 4"
+        pics: 'slavkov/s04/*.jpg'
+      - slug: s05
+        name: "Slavkov No. 5"
+        pics: 'slavkov/s05/*.jpg'
+      - slug: s06
+        name: "Slavkov No. 6"
+        pics: 'slavkov/s06/*.jpg'
+      - slug: s07
+        name: "Slavkov No. 7"
+        pics: 'slavkov/s07/*.jpg'
+
+  - slug: warriors
+    name: "Vojáci / Warriors / Troops"
+    items:
+      - slug: troops
+        name: "Vojáci / Troops"
+        height: 60mm
+        pics: 'warriors/troops/*.jpg'
+
+      - slug: w01
+        name: "Potah / Team with Wagoon or Gun"
+        height: 60mm
+        pics: 'warriors/w1/*.jpg'
+
+      - slug: ww1
+        name: "První světová válka / World War 1 No. 1"
+        height: 65mm
+        pics: 'warriors/ww1/*.jpg'
+
+      - slug: ww2
+        name: "První světová válka / World War 1 No. 2"
+        height: 65mm
+        pics: 'warriors/ww2/*.jpg'
+
+      - slug: ww3
+        name: "První světová válka / World War 1 No. 3"
+        height: 65mm
+        pics: 'warriors/ww3/*.jpg'
+
+      - slug: prus1
+        name: "Prus na motocyklu / Prussian riding a motorcycle"
+        height: 60mm
+        pics: 'warriors/prus1/*.jpg'
+
+      - slug: w04
+        name: "W04"
+        height: 50mm
+        pics: 'warriors/w4/*.jpg'
+
+      - slug: w05
+        name: "W05"
+        height: 50mm
+        pics: 'warriors/w5/*.jpg'
+
+      - slug: w06
+        name: "W06"
+        height: 50mm
+        pics: 'warriors/w6/*.jpg'
+
+      - slug: w07
+        name: "W07"
+        height: 50mm
+        pics: 'warriors/w7/*.jpg'
+
+      - slug: w08
+        name: "W08"
+        height: 50mm
+        pics: 'warriors/w8/*.jpg'
+
+      - slug: w09
+        name: "W09"
+        height: 50mm
+        pics: 'warriors/w9/*.jpg'
+
+      - slug: w10
+        name: "W10"
+        height: 50mm
+        pics: 'warriors/w10/*.jpg'
+
+      - slug: w11
+        name: "W11"
+        height: 50mm
+        pics: 'warriors/w11/*.jpg'
+
+      - slug: w12
+        name: "W12"
+        height: 50mm
+        pics: 'warriors/w12/*.jpg'
+
+      - slug: w13
+        name: "W13"
+        height: 50mm
+        pics: 'warriors/w13/*.jpg'
+
+      - slug: w14
+        name: "W14"
+        height: 50mm
+        pics: 'warriors/w14/*.jpg'
+
+      - slug: w15
+        name: "W15"
+        height: 50mm
+        pics: 'warriors/w15/*.jpg'
+
+      - slug: w16
+        name: "W16"
+        height: 50mm
+        pics: 'warriors/w16/*.jpg'
+
+      - slug: w17
+        name: "W17"
+        height: 50mm
+        pics: 'warriors/w17/*.jpg'
+
+      - slug: w18
+        name: "W18"
+        height: 50mm
+        pics: 'warriors/w18/*.jpg'
+
+      - slug: w19
+        name: "W19"
+        height: 50mm
+        pics: 'warriors/w19/*.jpg'
+
+      - slug: w20
+        name: "W20"
+        height: 50mm
+        pics: 'warriors/w20/*.jpg'
+
+      - slug: w21
+        name: "W21"
+        height: 50mm
+        pics: 'warriors/w21/*.jpg'
+
+      - slug: w22
+        name: "W22"
+        height: 50mm
+        pics: 'warriors/w22/*.jpg'
+
+
+  - slug: shields
+    name: "Štíty / Shields"
+    items:
+      - slug: sh01
+        name: "Štít/Shield No. 1"
+        pics: 'shields/sh01/*.jpg'
+      - slug: sh02
+        name: "Štít/Shield No. 2"
+        pics: 'shields/sh02/*.jpg'
+
+  - slug: weapons
+    name: "Zbraně / Weapons"
+    items:
+      - slug: wp1
+        name: "Zbraně / Weapons No. 1"
+        pics: 'weapons/wp1/*.jpg'
+      - slug: wp2
+        name: "Zbraně / Weapons No. 2"
+        pics: 'weapons/wp2/*.jpg'
